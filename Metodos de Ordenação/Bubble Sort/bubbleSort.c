@@ -1,4 +1,4 @@
-#include <stdlib.h>
+	#include <stdlib.h>
 
 void bubbleSort(int v[], int n){
     int i,j;
@@ -23,8 +23,8 @@ int main()
 	int i;
 	for(i=0;i<n;i++) printf("%d ", v[i]);
 	printf("\n");
-    bubbleSort(v, n);
-    for(i=0;i<n;i++) printf("%d ", v[i]);
+    	bubbleSort(v, n);
+    	for(i=0;i<n;i++) printf("%d ", v[i]);
 	return 0;
 }
 
